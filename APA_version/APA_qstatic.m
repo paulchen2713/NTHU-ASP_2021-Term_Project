@@ -1,3 +1,6 @@
+%
+% 
+%
 function ans_qstatic = APA_qstatic(train, data, L_order, step_size, M)
     % 
     % initialization
@@ -64,3 +67,4 @@ function ans_qstatic = APA_qstatic(train, data, L_order, step_size, M)
     end
     ans_qstatic = result;
 end
+%
