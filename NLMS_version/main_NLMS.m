@@ -1,5 +1,5 @@
 % 
-% Adaptive Signal Processing Term Project Group 6, ³q°T©Ò¤@¦~¯Å 110064533 ³¯ÊoÒ²
+% Adaptive Signal Processing Term Project Group 6, Â³qÂ°TÂ©Ã’Â¤@Â¦~Â¯Ã… 110064533 Â³Â¯ÃŠoÃ’Â²
 % 
 clear;
 clc;
@@ -64,3 +64,4 @@ ending_time = cputime;
 time_main_NLMS = ending_time - starting_time;
 fprintf('\n computation time: %f sec\n', time_main_NLMS);
 %
+
