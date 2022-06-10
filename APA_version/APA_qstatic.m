@@ -68,3 +68,4 @@ function ans_qstatic = APA_qstatic(train, data, L_order, step_size, M)
     ans_qstatic = result;
 end
 %
+
