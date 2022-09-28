@@ -57,3 +57,4 @@ function ans_static = APA_static(train, data, L_order, step_size, M)
     %
     ans_static = result;
 return
+
