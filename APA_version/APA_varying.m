@@ -64,4 +64,5 @@ function ans_varying = APA_varying(train, data, L_order, step_size,M)
     end
     ans_varying = result ;
 end
+%
 
