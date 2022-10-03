@@ -1,3 +1,6 @@
+% 
+% plot BER function
+% 
 function plot_BER(step_size_max, BER_data, channel_type)
     % plot
     BER_for_plot = BER_data(:, 3:2:end);
@@ -10,3 +13,4 @@ function plot_BER(step_size_max, BER_data, channel_type)
     grid on;
     legend('L=3','L=5','L=7','L=9','L=11','L=13','location','northwest');
 return
+
