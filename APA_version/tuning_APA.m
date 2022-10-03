@@ -16,7 +16,6 @@ step_size_max = 0.09; % step size alpha
 %
 M = 5;            % APA_M
 %
-%
 starting_time = cputime;
 fprintf('\n----------APA LMS Algorithm----------\n');
 %
@@ -72,3 +71,4 @@ time_tune_APA_M = ending_time - starting_time;
 fprintf('\n computation time of tuning APA_M: %f sec\n', time_tune_APA_M);
 %
 %
+
