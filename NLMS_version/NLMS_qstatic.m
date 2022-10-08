@@ -1,3 +1,6 @@
+%
+% NLMS algorithm for qstatic channel
+%
 function ans_qstatic = NLMS_qstatic(train, data, L_order, step_size)
     % 
     % initialization
