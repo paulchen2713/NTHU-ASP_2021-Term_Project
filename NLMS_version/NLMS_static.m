@@ -1,3 +1,6 @@
+% 
+% NLMS algorithm for static channel
+% 
 function ans_static = NLMS_static(train, data, L_order, step_size)
     % 
     % initialization
@@ -41,3 +44,4 @@ function ans_static = NLMS_static(train, data, L_order, step_size)
     % 
     ans_static = output_z(len_train + 1 : len_data);
 return
+
