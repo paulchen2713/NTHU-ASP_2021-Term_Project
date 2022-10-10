@@ -1,3 +1,6 @@
+% 
+% NLMS algorithm for time varying channel
+% 
 function ans_varying = NLMS_varying(train, data, L_order, step_size)
     % 
     % initialization
@@ -53,3 +56,4 @@ function ans_varying = NLMS_varying(train, data, L_order, step_size)
     end
     ans_varying = result;
 return
+
